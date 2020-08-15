@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch",
@@ -35,8 +36,8 @@
     "@babel/preset-typescript": "^7.10.4",
     "@storybook/addon-essentials": "^6.0.10",
     "@storybook/react": "^6.0.10",
-    "@testing-library/react": "^10.4.4",
     "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.4",
     "@types/jest": "^26.0.3",
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.41",
@@ -54,6 +55,7 @@
     "jest": "^26.1.0",
     "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
+    "plop": "^2.7.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
   }
